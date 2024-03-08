@@ -1,5 +1,5 @@
 import "../components/profile.css";
-
+import avtImage from "../components/avt.jpg";
 function Profile() {
   return (
     <div>
@@ -33,10 +33,7 @@ function Profile() {
             <section class="profile">
               <div class="profile-bg">
                 <div class="profile-img">
-                  <img
-                    src="https://scontent.fsgn6-1.fna.fbcdn.net/v/t39.30808-6/421764325_18053369956548289_7314845521473078555_n.jpg?_nc_cat=103&cb=99be929b-8d691acd&ccb=1-7&_nc_sid=5f2048&_nc_ohc=E0LVO5YQlcwAX94WnpJ&_nc_ht=scontent.fsgn6-1.fna&oh=00_AfCz9wgipGgD2kwFnL7e00-NujxZ1EBdUEDewIJqURiwNw&oe=65F04A04"
-                    alt="profile image"
-                  ></img>
+                  <img src={avtImage} alt="profile image"></img>
                 </div>
                 <div class="profile-name">
                   <h2>DONG HAI</h2>
