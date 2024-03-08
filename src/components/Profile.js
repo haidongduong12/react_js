@@ -33,7 +33,7 @@ function Profile() {
             <section class="profile">
               <div class="profile-bg">
                 <div class="profile-img">
-                  <img src={avtImage} alt="profile image"></img>
+                  <img src={avtImage}></img>
                 </div>
                 <div class="profile-name">
                   <h2>DONG HAI</h2>
@@ -83,84 +83,84 @@ function Profile() {
               <ul class="skills__items">
                 <li class="skills__item">
                   <i class="fab fa-html5"></i>
-                  <a>
+                  <a href="#">
                     <span>HTML</span> (Semantic, Accessibility)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-css3-alt"></i>
-                  <a>
+                  <a href="#">
                     <span>CSS</span> (Bootstrap, BEM)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-sass"></i>
-                  <a>
+                  <a href="#">
                     <span>SCSS</span> (SMACSS Architecture)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-js-square"></i>
-                  <a>
+                  <a href="#">
                     <span>JavaScript</span> (Fundamentals,Functional
                     Programming, OOP, Asynchronous JavaScript, ES6+,DOM)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-react"></i>
-                  <a>
+                  <a href="#">
                     <span>React JS, Redux</span> (intermediate level knowledge)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-git-alt"></i>
-                  <a>
+                  <a href="#">
                     Version control:<span>Git</span>
                   </a>
                   <i class="fab fa-github"></i>
-                  <a>
+                  <a href="#">
                     <span>GitHub</span>
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-gulp"></i>
-                  <a>Module Bundlers:</a>
+                  <a href="#">Module Bundlers:</a>
                   <span>Gulp, Webpack</span>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-python"></i>
-                  <a>
+                  <a href="#">
                     <span>Python</span>( basic knowledge)
                   </a>
-                  <a>
+                  <a href="#">
                     <span>C</span>(basic knowledge)
                   </a>
-                  <a>
+                  <a href="#">
                     <span>Flask</span>(basic knowledge)
                   </a>
-                  <a>
+                  <a href="#">
                     <span>SQLite</span> (basic knowledge)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-windows"></i>
-                  <a>
+                  <a href="#">
                     <span>Windows</span>,
                   </a>
                   <i class="fab fa-ubuntu"></i>
-                  <a>
+                  <a href="#">
                     <span>Linux</span> (Ubuntu)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fab fa-figma"></i>
-                  <a>
+                  <a href="#">
                     <span>Figma</span>(for web development)
                   </a>
                 </li>
                 <li class="skills__item">
                   <i class="fas fa-laptop-code"></i>
-                  <a>Editors: </a>
+                  <a href="#">Editors: </a>
                   <span>Sublime</span>
                   <span>Brackets</span>
                   <span>VS Code</span>
@@ -302,24 +302,18 @@ function Profile() {
         <div class="footer">
           <div class="container">
             <div class="footer__links">
-              <a href="https://rs.school/" target="_blank">
+              <a href="https://rs.school/">
                 <img src="https://rs.school/images/rs_school.svg"></img>
               </a>
-              <a
-                href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug"
-                target="_blank"
-              >
+              <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">
                 <i class="fab fa-youtube-square"></i>
               </a>
-              <a href="https://github.com/elvinyeka" target="_blank">
+              <a href="https://github.com/elvinyeka">
                 <i class="fab fa-github-alt"></i>
               </a>
             </div>
             <div class="author">
-              <a href="https://elvindev.com" target="_blank">
-                {" "}
-                © Elvin Yekayev
-              </a>
+              <a href="https://elvindev.com"> © Elvin Yekayev</a>
             </div>
           </div>
         </div>
