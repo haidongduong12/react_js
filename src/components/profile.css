@@ -490,6 +490,7 @@ pre {
   .profile-name {
     top: 65%;
     right: -8%;
+    text-align: center;
   }
   .profile-name h2 {
     font-size: 28px;

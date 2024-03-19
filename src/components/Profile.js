@@ -1,8 +1,36 @@
 import "../components/profile.css";
 import avtImage from "../components/avt.jpg";
-function Profile() {
+import { useState } from "react";
+
+function Profile(props) {
+  // console.log(props);
+  //Hàm cập nhập tuổi bằng oneChange
+  // const [age, setAge] = useState("20");
+
+  // const changeAge = (event) => {
+  //   event.preventDefault();
+  //   setAge(event.target.value);
+  // };
+
+  const [randomNumber, setRandomNumber] = useState("20");
+
+  const generateRandomNumber = () => {
+    const min = 1;
+    const max = 100;
+    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+    setRandomNumber(randomNum);
+  };
   return (
     <div>
+      <form class="flex-form">
+        <button type="button" class="submit" onClick={generateRandomNumber}>
+          Update Age
+        </button>
+        {/* <button class="submit" onclick={window.print()}>
+          Print CV
+        </button> */}
+      </form>
+
       <header class="header">
         <div class="container">
           <div class="header__top">
@@ -36,7 +64,7 @@ function Profile() {
                   <img src={avtImage} alt="img"></img>
                 </div>
                 <div class="profile-name">
-                  <h2>DONG HAI</h2>
+                  <h2 id="name">{props.name}</h2>
                   <h4> Freelancer Front End Developer</h4>
                 </div>
               </div>
@@ -63,14 +91,21 @@ function Profile() {
               <div class="about__info">
                 <ul class="about__info-items">
                   <li class="about__info-item--right">Age</li>
-                  <li class="about__info-item">20</li>
-                  <li class="about__info-item--right">Email</li>
-                  <li class="about__info-item">haidongduong26@gmail.com</li>
-                  <li class="about__info-item--right">Phone</li>
-                  <li class="about__info-item">+84 (0) 33 861 6842</li>
-                  <li class="about__info-item--right">Address</li>
                   <li class="about__info-item">
-                    Buon Ma Thuot, Dak Lak, Viet Nam
+                    {randomNumber}
+                    {/* <input type="text" id="age" value={randomNumber}></input> */}
+                  </li>
+                  <li class="about__info-item--right">Email</li>
+                  <li class="about__info-item" id="email">
+                    {props.email}
+                  </li>
+                  <li class="about__info-item--right">Phone</li>
+                  <li class="about__info-item" id="phonenumber">
+                    {props.phone}
+                  </li>
+                  <li class="about__info-item--right">Address</li>
+                  <li class="about__info-item" id="address">
+                    {props.address}
                   </li>
                 </ul>
               </div>
@@ -296,6 +331,20 @@ function Profile() {
           </div>
         </div>
       </main>
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="footer__links">
+              <img src="https://rs.school/images/rs_school.svg" alt="img"></img>
+
+              <i class="fab fa-youtube-square"></i>
+
+              <i class="fab fa-github-alt"></i>
+            </div>
+            <div class="author">© HaiDong Duong</div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

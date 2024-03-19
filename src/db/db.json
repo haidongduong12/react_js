@@ -1,0 +1,37 @@
+{
+  "info": [
+    {
+      "name": "gmgfm",
+      "email": "",
+      "phone": "",
+      "address": "đabs",
+      "id": "1"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 19.99,
+      "description": "This is product 1",
+      "image": "https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/312959579_963647987927306_6959311173195895478_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OvGM34dtuIcAX8l5M8O&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfAEhQBK2xqwP_kiPhQ8miqqORHoy6Ge_yaD_0gU4DWzSg&oe=65FA8B01"
+    },
+    {
+      "name": "san pham 2",
+      "price": " 150000",
+      "description": "ƯQFWQF",
+      "image": "https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/312959579_963647987927306_6959311173195895478_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OvGM34dtuIcAX8l5M8O&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfAEhQBK2xqwP_kiPhQ8miqqORHoy6Ge_yaD_0gU4DWzSg&oe=65FA8B01",
+      "id": "d30b"
+    },
+    {
+      "name": "san pham 34",
+      "price": "150000",
+      "description": "hsdhdhds",
+      "image": "https://nhadepso.com/wp-content/uploads/2023/02/tong-hop-65-hinh-nen-meo-cute-dang-yeu-de-thuong-kho-cuong_1.jpg",
+      "id": "9f4a"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
