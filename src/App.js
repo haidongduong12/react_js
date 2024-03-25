@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 // import Post from "./components/post";
 // import Product from "./components/post";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [name, setTen] = useState("");

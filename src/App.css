@@ -1,12 +1,13 @@
 .flex-form {
   display: flex;
   justify-content: center;
+  margin-top: 200px;
 }
 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 350px;
+  max-width: 450px;
   padding: 20px;
   border-radius: 20px;
   position: relative;
@@ -24,7 +25,7 @@
   display: flex;
   align-items: center;
   padding-left: 30px;
-  color: #00bfff;
+  color: #81c408;
 }
 
 .title::before {
@@ -46,7 +47,7 @@
   width: 16px;
   border-radius: 50%;
   left: 0px;
-  background-color: #00bfff;
+  background-color: #a0e71c;
 }
 
 .message,
@@ -60,11 +61,11 @@
 }
 
 .signin a:hover {
-  text-decoration: underline royalblue;
+  text-decoration: underline #81c408;
 }
 
 .signin a {
-  color: #00bfff;
+  color: #81c408;
 }
 
 .flex {
@@ -104,7 +105,7 @@
 
 .form label .input:focus + span,
 .form label .input:valid + span {
-  color: #00bfff;
+  color: #81c408;
   top: 0px;
   font-size: 0.7em;
   font-weight: 600;
@@ -123,11 +124,11 @@
   color: #fff;
   font-size: 16px;
   transform: 0.3s ease;
-  background-color: #00bfff;
+  background-color: #81c408;
 }
 
 .submit:hover {
-  background-color: #00bfff96;
+  background-color: #6ca405;
 }
 
 @keyframes pulse {

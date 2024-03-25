@@ -8,11 +8,16 @@ import Product from "./components/post";
 import Profile from "./components/Profile";
 import ErrorPage from "./sprint-page/errorspage";
 import ProductDetails from "./sprint-page/ProductDetails";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Login from "./sprint-page/Login";
+import FruitShop from "./components/fruit";
+import Register from "./sprint-page/Register";
+import UserDashboard from "./dashboard/dashboard";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <FruitShop></FruitShop>,
     errorElement: <ErrorPage />,
   },
   {
@@ -28,6 +33,21 @@ const router = createBrowserRouter([
   {
     path: "products/:id",
     element: <ProductDetails />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "Login",
+    element: <Login />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "Register",
+    element: <Register />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "Dashboard",
+    element: <UserDashboard />,
     errorElement: <ErrorPage />,
   },
 ]);

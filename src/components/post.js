@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "../components/post.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Product() {
   const [name, setName] = useState("");
@@ -259,6 +260,9 @@ function Product() {
                   >
                     Update
                   </button>
+                  <Link to={`${item.id}`} className="Link">
+                    View details
+                  </Link>
                 </div>
               </div>
             </div>

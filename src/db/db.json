@@ -31,7 +31,20 @@
       "id": "9f4a"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": "fd8e",
+      "username": "haidong",
+      "email": "haibanh2004@gmail.com",
+      "password": "123456789",
+      "role": "1"
+    },
+    {
+      "id": "80be",
+      "username": "haidong1",
+      "email": "hai@gmail.com",
+      "password": "1",
+      "role": 0
+    }
+  ]
 }
